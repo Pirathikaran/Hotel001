@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="./style/mystyle.css">
+    <link rel="stylesheet" href="./style/contactus.css">
 </head>
-<body>
+<body class="bg-dark text-light text-center">
     <!--navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="nav">
         <a class="navbar-brand text-success " href="index.html">Mitchel Grand</a>
@@ -28,7 +29,7 @@
               <a class="nav-link " href="contactus.html">Contact Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="aboutus.html">About Us</a>
+                <a class="nav-link " href="#">About Us</a>
               </li>
             
            
@@ -52,14 +53,75 @@
     </p>
 
     <p class="number"> 
-        <strong>Carporate</strong> +9477273864 <br>
-        <strong>Hotel</strong> +9477273864 <br>
-        <strong>Fax</strong> +9477273864 <br>
-        <strong>Address</strong> +9477273864 <br>
-        <strong>Email</strong> info@gmail.com <br>
-    </p>
+        <strong>Carporate :</strong> +9477273864 <br>
+        <strong>Hotel :</strong> +9477273864 <br>
+        <strong>Fax :</strong> +9477273864 <br>
+        <strong>Address :</strong> +9477273864 <br>
+        <strong>Email :</strong> info@gmail.com <br>
+    </p> <br><br>
 
-    
+    <div class="row" id="contact">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=" 
+                    width="600" height="450" frameborder="0" style="border:0; width:100%; height:50vh;" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-uppercase mt-3 font-weight-bold tetx-white">Contact Us</h2>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mt-2" placeholder="first name" required>
+                                </div>
+                            </div> <br>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mt-2" placeholder="Last name" required>
+                                </div>
+                            </div> <br>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mt-2" placeholder="Email" required>
+                                </div>
+                            </div> <br>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mt-2" placeholder="Telephone number" required>
+                                </div>
+                            </div> <br>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="example-form-control" rows="3" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="invalidcheck2" required>
+                                        <label class="form-check-label text-white" id="invalidcheck2" >Get a call back</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <button class="btn btn-light" type="submit"> submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
       
 
